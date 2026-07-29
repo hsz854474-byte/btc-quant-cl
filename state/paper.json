@@ -3,7 +3,7 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1785268800000,
+    "lastProcessedTime": 1785297600000,
     "cash": 100000,
     "quantity": 0,
     "averageEntry": 0,
@@ -31,6 +31,14 @@
       {
         "time": 1785268800000,
         "equity": 100000
+      },
+      {
+        "time": 1785283200000,
+        "equity": 100000
+      },
+      {
+        "time": 1785297600000,
+        "equity": 100000
       }
     ],
     "lastEvent": "云端模拟账户已建立，等待下一根4小时K线收盘。"
@@ -38,11 +46,11 @@
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1785292583754,
-    "lastRunDurationMs": 990,
-    "nextRunAt": 1785297900000,
-    "latestPrice": 63915,
-    "latestCandleTime": 1785268800000,
+    "lastRunAt": 1785325828263,
+    "lastRunDurationMs": 933,
+    "nextRunAt": 1785326700000,
+    "latestPrice": 64561,
+    "latestCandleTime": 1785297600000,
     "processedEvents": 0,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
