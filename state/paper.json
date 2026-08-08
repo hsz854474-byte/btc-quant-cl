@@ -3,12 +3,12 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1786176000000,
+    "lastProcessedTime": 1786190400000,
     "cash": 80000,
     "quantity": 0.307988104964055,
     "averageEntry": 64872.70013999999,
     "entryCost": 20000.000000000004,
-    "stopPrice": 64438.08170161037,
+    "stopPrice": 64475.62280806232,
     "highestSinceEntry": 65390.99,
     "trades": [
       {
@@ -293,6 +293,10 @@
       {
         "time": 1786176000000,
         "equity": 100009.1710110365
+      },
+      {
+        "time": 1786190400000,
+        "equity": 100044.11842130678
       }
     ],
     "lastEvent": "趋势向上并突破 20 根K线高点"
@@ -300,19 +304,19 @@
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1786198002467,
-    "lastRunDurationMs": 817,
-    "nextRunAt": 1786205100000,
-    "latestPrice": 64967.35,
-    "latestCandleTime": 1786176000000,
+    "lastRunAt": 1786209449185,
+    "lastRunDurationMs": 540,
+    "nextRunAt": 1786219500000,
+    "latestPrice": 65080.82,
+    "latestCandleTime": 1786190400000,
     "processedEvents": 1,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": 0.009171011036501753,
+    "returnPct": 0.04411842130678245,
     "startEquity": 100000,
-    "endEquity": 100009.1710110365,
+    "endEquity": 100044.11842130678,
     "tradeCount": 1,
     "realizedPnl": 0,
     "status": "本周风险受控，继续观察"
