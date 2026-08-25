@@ -3,14 +3,23 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1787601600000,
-    "cash": 103135.18364454008,
-    "quantity": 0,
-    "averageEntry": 0,
-    "entryCost": 0,
-    "stopPrice": 0,
-    "highestSinceEntry": 0,
+    "lastProcessedTime": 1787616000000,
+    "cash": 90989.29979782872,
+    "quantity": 0.15067693006061417,
+    "averageEntry": 80528.254005,
+    "entryCost": 12145.883846711371,
+    "stopPrice": 77105.85936226833,
+    "highestSinceEntry": 81272.62,
     "trades": [
+      {
+        "id": 1787616000000,
+        "side": "买入",
+        "time": 1787616000000,
+        "price": 80528.254005,
+        "quantity": 0.15067693006061417,
+        "fee": 12.133750096614756,
+        "reason": "趋势向上并突破 20 根K线高点"
+      },
       {
         "id": 1787457600000,
         "side": "卖出",
@@ -718,27 +727,31 @@
       {
         "time": 1787601600000,
         "equity": 103135.18364454008
+      },
+      {
+        "time": 1787616000000,
+        "equity": 103116.98605131672
       }
     ],
-    "lastEvent": "触发 ATR 动态保护价"
+    "lastEvent": "趋势向上并突破 20 根K线高点"
   },
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1787627747647,
-    "lastRunDurationMs": 912,
-    "nextRunAt": 1787630700000,
-    "latestPrice": 78992.75,
-    "latestCandleTime": 1787601600000,
-    "processedEvents": 4,
+    "lastRunAt": 1787636969052,
+    "lastRunDurationMs": 909,
+    "nextRunAt": 1787645100000,
+    "latestPrice": 80488.01,
+    "latestCandleTime": 1787616000000,
+    "processedEvents": 5,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": 3.368862890104385,
+    "returnPct": 3.350624065560104,
     "startEquity": 99773.93652301976,
-    "endEquity": 103135.18364454008,
-    "tradeCount": 2,
+    "endEquity": 103116.98605131672,
+    "tradeCount": 3,
     "realizedPnl": 3361.247121520326,
     "status": "本周风险受控，继续观察"
   },
