@@ -3,14 +3,24 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1788494400000,
-    "cash": 88604.24811130628,
-    "quantity": 0.17333952125918625,
-    "averageEntry": 81388.674,
-    "entryCost": 14121.981660867059,
-    "stopPrice": 79566.42184535168,
-    "highestSinceEntry": 82300,
+    "lastProcessedTime": 1788523200000,
+    "cash": 102351.84466851101,
+    "quantity": 0,
+    "averageEntry": 0,
+    "entryCost": 0,
+    "stopPrice": 0,
+    "highestSinceEntry": 0,
     "trades": [
+      {
+        "id": 1788523200000,
+        "side": "卖出",
+        "time": 1788523200000,
+        "price": 79389.61533500001,
+        "quantity": 0.17333952125918625,
+        "fee": 13.761357915119854,
+        "pnl": -374.3851036623255,
+        "reason": "触发 ATR 动态保护价"
+      },
       {
         "id": 1788436800000,
         "side": "买入",
@@ -994,28 +1004,36 @@
       {
         "time": 1788494400000,
         "equity": 102585.2713433707
+      },
+      {
+        "time": 1788508800000,
+        "equity": 102683.7264580507
+      },
+      {
+        "time": 1788523200000,
+        "equity": 102351.84466851101
       }
     ],
-    "lastEvent": "趋势向上并突破 20 根K线高点"
+    "lastEvent": "触发 ATR 动态保护价"
   },
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1788511324600,
-    "lastRunDurationMs": 1019,
-    "nextRunAt": 1788523500000,
-    "latestPrice": 80656.87,
-    "latestCandleTime": 1788494400000,
-    "processedEvents": 7,
+    "lastRunAt": 1788537798084,
+    "lastRunDurationMs": 1113,
+    "nextRunAt": 1788552300000,
+    "latestPrice": 79429.33,
+    "latestCandleTime": 1788523200000,
+    "processedEvents": 8,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": -0.13721756275419938,
+    "returnPct": -0.364449376262177,
     "startEquity": 102726.22977217335,
-    "endEquity": 102585.2713433707,
-    "tradeCount": 1,
-    "realizedPnl": 0,
+    "endEquity": 102351.84466851101,
+    "tradeCount": 2,
+    "realizedPnl": -374.3851036623255,
     "status": "本周处于回撤，暂不扩大风险"
   },
   "strategyVersion": "trend-breakout-v0.3",
