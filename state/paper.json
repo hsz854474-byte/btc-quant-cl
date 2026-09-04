@@ -1019,8 +1019,8 @@
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1788537798084,
-    "lastRunDurationMs": 1113,
+    "lastRunAt": 1788548232659,
+    "lastRunDurationMs": 827,
     "nextRunAt": 1788552300000,
     "latestPrice": 79429.33,
     "latestCandleTime": 1788523200000,
