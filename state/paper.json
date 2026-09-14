@@ -3,7 +3,7 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1789228800000,
+    "lastProcessedTime": 1789344000000,
     "cash": 102351.84466851101,
     "quantity": 0,
     "averageEntry": 0,
@@ -1208,6 +1208,38 @@
       {
         "time": 1789228800000,
         "equity": 102351.84466851101
+      },
+      {
+        "time": 1789243200000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789257600000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789272000000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789286400000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789300800000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789315200000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789329600000,
+        "equity": 102351.84466851101
+      },
+      {
+        "time": 1789344000000,
+        "equity": 102351.84466851101
       }
     ],
     "lastEvent": "触发 ATR 动态保护价"
@@ -1215,11 +1247,11 @@
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1789250612600,
-    "lastRunDurationMs": 983,
-    "nextRunAt": 1789257900000,
-    "latestPrice": 77114.99,
-    "latestCandleTime": 1789228800000,
+    "lastRunAt": 1789358839781,
+    "lastRunDurationMs": 643,
+    "nextRunAt": 1789373100000,
+    "latestPrice": 77596.33,
+    "latestCandleTime": 1789344000000,
     "processedEvents": 8,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
