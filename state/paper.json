@@ -3,14 +3,23 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1789732800000,
-    "cash": 102351.84466851101,
-    "quantity": 0,
-    "averageEntry": 0,
-    "entryCost": 0,
-    "stopPrice": 0,
-    "highestSinceEntry": 0,
+    "lastProcessedTime": 1789747200000,
+    "cash": 87262.98623528337,
+    "quantity": 0.18553409335632112,
+    "averageEntry": 81245.36237999999,
+    "entryCost": 15088.858433227637,
+    "stopPrice": 78487.0595037749,
+    "highestSinceEntry": 81400,
     "trades": [
+      {
+        "id": 1789747200000,
+        "side": "买入",
+        "time": 1789747200000,
+        "price": 81245.36237999999,
+        "quantity": 0.18553409335632112,
+        "fee": 15.073784648579059,
+        "reason": "趋势向上并突破 20 根K线高点"
+      },
       {
         "id": 1788523200000,
         "side": "卖出",
@@ -1348,29 +1357,33 @@
       {
         "time": 1789732800000,
         "equity": 102351.84466851101
+      },
+      {
+        "time": 1789747200000,
+        "equity": 102329.23775810102
       }
     ],
-    "lastEvent": "触发 ATR 动态保护价"
+    "lastEvent": "趋势向上并突破 20 根K线高点"
   },
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1789747712851,
-    "lastRunDurationMs": 633,
-    "nextRunAt": 1789761900000,
-    "latestPrice": 80725.6,
-    "latestCandleTime": 1789732800000,
-    "processedEvents": 8,
+    "lastRunAt": 1789770272640,
+    "lastRunDurationMs": 760,
+    "nextRunAt": 1789776300000,
+    "latestPrice": 81204.76,
+    "latestCandleTime": 1789747200000,
+    "processedEvents": 9,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": 0,
+    "returnPct": -0.022087447943131,
     "startEquity": 102351.84466851101,
-    "endEquity": 102351.84466851101,
-    "tradeCount": 0,
+    "endEquity": 102329.23775810102,
+    "tradeCount": 1,
     "realizedPnl": 0,
-    "status": "本周风险受控，继续观察"
+    "status": "本周处于回撤，暂不扩大风险"
   },
   "strategyVersion": "trend-breakout-v0.3",
   "strategy": {
