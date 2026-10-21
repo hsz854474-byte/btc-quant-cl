@@ -3,14 +3,23 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1792555200000,
-    "cash": 102404.25546207727,
-    "quantity": 0,
-    "averageEntry": 0,
-    "entryCost": 0,
-    "stopPrice": 0,
-    "highestSinceEntry": 0,
+    "lastProcessedTime": 1792584000000,
+    "cash": 81923.40436966182,
+    "quantity": 0.24491213376985577,
+    "averageEntry": 83541.76000499999,
+    "entryCost": 20480.851092415458,
+    "stopPrice": 82703.98827924076,
+    "highestSinceEntry": 84828,
     "trades": [
+      {
+        "id": 1792569600000,
+        "side": "买入",
+        "time": 1792569600000,
+        "price": 83541.76000499999,
+        "quantity": 0.24491213376985577,
+        "fee": 20.46039070171374,
+        "reason": "趋势向上并突破 20 根K线高点"
+      },
       {
         "id": 1790956800000,
         "side": "卖出",
@@ -2170,27 +2179,35 @@
       {
         "time": 1792555200000,
         "equity": 102404.25546207727
+      },
+      {
+        "time": 1792569600000,
+        "equity": 102373.5699885661
+      },
+      {
+        "time": 1792584000000,
+        "equity": 102628.27860768676
       }
     ],
-    "lastEvent": "触发 ATR 动态保护价"
+    "lastEvent": "趋势向上并突破 20 根K线高点"
   },
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1792574234302,
-    "lastRunDurationMs": 890,
-    "nextRunAt": 1792584300000,
-    "latestPrice": 83153.78,
-    "latestCandleTime": 1792555200000,
-    "processedEvents": 12,
+    "lastRunAt": 1792601703170,
+    "lastRunDurationMs": 937,
+    "nextRunAt": 1792613100000,
+    "latestPrice": 84540.01,
+    "latestCandleTime": 1792584000000,
+    "processedEvents": 13,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": 0,
+    "returnPct": 0.21876351192500199,
     "startEquity": 102404.25546207727,
-    "endEquity": 102404.25546207727,
-    "tradeCount": 0,
+    "endEquity": 102628.27860768676,
+    "tradeCount": 1,
     "realizedPnl": 0,
     "status": "本周风险受控，继续观察"
   },
