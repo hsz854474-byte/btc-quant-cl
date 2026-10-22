@@ -3,14 +3,24 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1792627200000,
-    "cash": 81923.40436966182,
-    "quantity": 0.24491213376985577,
-    "averageEntry": 83541.76000499999,
-    "entryCost": 20480.851092415458,
-    "stopPrice": 82831.99497418529,
-    "highestSinceEntry": 84898,
+    "lastProcessedTime": 1792641600000,
+    "cash": 102034.64390662032,
+    "quantity": 0,
+    "averageEntry": 0,
+    "entryCost": 0,
+    "stopPrice": 0,
+    "highestSinceEntry": 0,
     "trades": [
+      {
+        "id": 1792641600000,
+        "side": "卖出",
+        "time": 1792641600000,
+        "price": 82198.34027000002,
+        "quantity": 0.24491213376985577,
+        "fee": 20.131370907866366,
+        "pnl": -369.61155545695874,
+        "reason": "触发 ATR 动态保护价"
+      },
       {
         "id": 1792569600000,
         "side": "买入",
@@ -2199,28 +2209,32 @@
       {
         "time": 1792627200000,
         "equity": 102232.77735022584
+      },
+      {
+        "time": 1792641600000,
+        "equity": 102034.64390662032
       }
     ],
-    "lastEvent": "趋势向上并突破 20 根K线高点"
+    "lastEvent": "触发 ATR 动态保护价"
   },
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1792641804727,
-    "lastRunDurationMs": 648,
-    "nextRunAt": 1792656300000,
-    "latestPrice": 82925.14,
-    "latestCandleTime": 1792627200000,
-    "processedEvents": 13,
+    "lastRunAt": 1792660819897,
+    "lastRunDurationMs": 671,
+    "nextRunAt": 1792670700000,
+    "latestPrice": 82239.46,
+    "latestCandleTime": 1792641600000,
+    "processedEvents": 14,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
   },
   "weekly": {
-    "returnPct": -0.16745213475521936,
+    "returnPct": -0.36093378521152575,
     "startEquity": 102404.25546207727,
-    "endEquity": 102232.77735022584,
-    "tradeCount": 1,
-    "realizedPnl": 0,
+    "endEquity": 102034.64390662032,
+    "tradeCount": 2,
+    "realizedPnl": -369.61155545695874,
     "status": "本周处于回撤，暂不扩大风险"
   },
   "strategyVersion": "trend-breakout-v0.3",
