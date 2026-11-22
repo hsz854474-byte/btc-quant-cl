@@ -3,7 +3,7 @@
     "version": 3,
     "strategyVersion": "trend-breakout-v0.3",
     "startedAt": 1785211200000,
-    "lastProcessedTime": 1795276800000,
+    "lastProcessedTime": 1795305600000,
     "cash": 102034.64390662032,
     "quantity": 0,
     "averageEntry": 0,
@@ -2945,6 +2945,14 @@
       {
         "time": 1795276800000,
         "equity": 102034.64390662032
+      },
+      {
+        "time": 1795291200000,
+        "equity": 102034.64390662032
+      },
+      {
+        "time": 1795305600000,
+        "equity": 102034.64390662032
       }
     ],
     "lastEvent": "触发 ATR 动态保护价"
@@ -2952,11 +2960,11 @@
   "runtime": {
     "status": "healthy",
     "mode": "cloud",
-    "lastRunAt": 1795296647786,
-    "lastRunDurationMs": 892,
-    "nextRunAt": 1795305900000,
-    "latestPrice": 60364.02,
-    "latestCandleTime": 1795276800000,
+    "lastRunAt": 1795326985160,
+    "lastRunDurationMs": 727,
+    "nextRunAt": 1795334700000,
+    "latestPrice": 59359.98,
+    "latestCandleTime": 1795305600000,
     "processedEvents": 14,
     "source": "GitHub Actions · Binance BTCUSDT",
     "error": null
